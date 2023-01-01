@@ -4,7 +4,6 @@ import './Login.scss';
 function Login() {
   return (
     <div className='login-container'>
-        
         <div className='l-login-content'>
             <div>
                 <img src={logo} alt="lendsqr logo" />
@@ -31,9 +30,7 @@ function Login() {
                     <div>
                         <span>Forgot PASSWORD?</span>
                     </div>
-                    <div className="login-btn">
-                        LOG IN
-                    </div>
+                    <div className="login-btn">LOG IN</div>
                 </form>
             </div>
         </div>
