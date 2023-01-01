@@ -1,18 +1,20 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
+import {Routes,Route } from 'react-router-dom';
 import './App.css';
+import Dashboard from './pages/Dashboard/Dashboard';
 import Login from './pages/Login/Login';
 
 
 function App() {
   return (
-    <div>
-      <Router>
+    <>
+      <div>
         <Routes>
-          <Route path="/" element={<Login />}/>
+          <Route path="/" exact element={<Login />}/>
+          <Route path="/dashboard/*" element={<Dashboard />} />
         </Routes>
-      </Router>
-    </div>
+      </div>
+    </>    
   );
 }
 
