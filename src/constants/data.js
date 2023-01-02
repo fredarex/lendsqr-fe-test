@@ -19,77 +19,94 @@ const customerlinks = [
             },
             {
                 name:'Decision Models',
-                icon: decision_icon
+                icon: decision_icon,
+                route: '/dashboard/decision'
             },
             {
                 name: 'Savings',
-                icon:   piggy_bank_icon
+                icon:   piggy_bank_icon,
+                route: '/dashboard/saving'
             },
             {
                 name:'Loan Requests',
-                icon:  loan_requests_icon
+                icon:  loan_requests_icon,
+                route: '/dashboard/loans request'
             },
             {
                 name: 'Whitelist',
-                icon: whitelist_icon
+                icon: whitelist_icon,
+                route: '/dashboard/whitelist'
             },
             {
                 name: 'Karma',
-                icon:karma_icon
+                icon:karma_icon,
+                route: '/dashboard/karma'
             }
 ];
 
 const bussinessLinks = [
             {
                 name: 'Organization',
-                icon: organization
+                icon: organization,
+                route: '/dashboard/organization'
             },
             {
                 name: 'Loan Products',
-                icon: loan_requests_icon
+                icon: loan_requests_icon,
+                route: '/dashboard/loan product'
             },
             {
                 name: 'Savings Products',
-                icon: savings_icon
+                icon: savings_icon,
+                route: '/dashboard/savings products'
             },
             {
                 name:'Fees and Charges',
-                icon: charges_icon
+                icon: charges_icon,
+                route: '/dashboard/feeandcharges'
             },
             {
                 name: 'Transactions',
-                icon:   transactions_icon
+                icon:   transactions_icon,
+                route: '/dashboard/transactions'
             },
             {
                 name:'Services',
-                icon:  services_icon
+                icon:  services_icon,
+                route: '/dashboard/services'
             },
             {
                 name: 'Service Account',
-                icon: account_icon
+                icon: account_icon,
+                route: '/dashboard/service account'
             },
             {
                 name: 'Settlements',
-                icon:settlements_icon
+                icon:settlements_icon,
+                route: '/dashboard/settlements'
             },
             {
                 name:'Reports',
-                icon:reports_icon
+                icon:reports_icon,
+                route: '/dashboard/reports'
             }
 ];
 
 const settingLinks = [
     {
         name:'Preferences',
-        icon: preferences_icon
+        icon: preferences_icon,
+        route: '/dashboard/preferences'
     },
     {
         name:'Fees and Pricing',
-        icon: pricing_icon
+        icon: pricing_icon,
+        route: '/dashboard/feesandpricing'
     },
     {
         name:'Audit Logs',
-        icon:clipboard_icon
+        icon:clipboard_icon,
+        route: '/dashboard/audit logs'
     }
 ]
 

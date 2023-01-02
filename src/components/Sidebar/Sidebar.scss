@@ -1,3 +1,75 @@
+@import "../../styles/styles.scss";
 .sidebar-container {
+    position: relative;
+    background:#fff;
+    width:283px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+    padding-top:36px;
+    a{
+        color:$dark-blue;
+    }
+}
+
+.cancel-sidebar {
+    display:none;
+    position: absolute;
+    background: $dark-blue;
+    border-radius: 50%;
+    top:10px;
+    right:0;
+    justify-content: flex-end;
+    margin-right:10px;
+    cursor: pointer;
+}
+
+
+.switch-organization {
+    margin-bottom: 42px;
     
+}
+
+.link,.link-active {
+    display:flex;
+    width:100%;
+    height:40px;
+    align-items:center;
+    padding-left:30px;
+    text-decoration: none;
+    color:$dark-blue;
+}
+
+.link-active{
+    background-color: rgba(243,252,252,0.6);
+    
+    border-left:3px solid $cyan;
+   
+}
+
+
+.nav-list {
+    display:flex;
+    margin-left:10px;
+    span{
+        margin-right:10px;
+        font-size:16px;
+        font-weight: 400;
+    }
+}
+
+.links-content{
+    margin-top:31px;
+   
+}
+
+.links-header {
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+
+@media screen and (max-width:985px) {
+    .cancel-sidebar {
+        display:flex;
+    }
 }
