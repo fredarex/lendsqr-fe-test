@@ -1,12 +1,24 @@
 @import "../../styles/styles.scss";
 
 .navbar-container {
+    position:relative;
+    background:#fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height:100px;
-    box-shadow:3px 0px 20px rgba(0, 0, 0, 0.04);
     padding: 0 30px;
+}
+
+.menu-button{
+    position: absolute;
+    top:20px;
+    left:20px;
+    display:none;
+    cursor: pointer;
+    div {
+        font-size:12px;
+    }
 }
 
 .l-navbar-content {
@@ -72,13 +84,26 @@
     margin:0 10px;
 }
 
-@media screen and (max-width:906px) {
+@media screen and (max-width:940px) {
     .nav-input-container {
         width:230px;
     }
 }
 
-@media screen and (max-width:728px) {
+@media screen and (max-width:985px) {
+    .l-navbar-content {
+        justify-content: flex-end;
+        .nav-logo{
+            margin-right:20px;
+        }
+        
+    }
+    .menu-button{
+        display: block;
+    }
+}
+
+@media screen and (max-width:780px) {
     .navbar-container {
         flex-direction:column;
         justify-content:center;
@@ -91,6 +116,15 @@
     }
     .nav-logo {
         margin-right:20px;
+    }
+    .menu-button{
+        position: absolute;
+        top:0;
+        left:0;
+        
+    }
+    .nav-logo{
+        margin-left: 10px;
     }
 }
 

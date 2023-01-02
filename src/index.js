@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import store from './redux/store';
+import './assets/fonts/avenirNext/AvenirNextLTPro-Bold.otf';
+import './assets/fonts/avenirNext/AvenirNextLTPro-It.otf';
+import './assets/fonts/avenirNext/AvenirNextLTPro-Regular.otf';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 

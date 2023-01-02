@@ -28,7 +28,7 @@ function Login() {
                         <span>show</span>
                     </div>
                     <div>
-                        <span>Forgot PASSWORD?</span>
+                        <span>FORGORT PASSWORD?</span>
                     </div>
                     <div className="login-btn">LOG IN</div>
                 </form>
